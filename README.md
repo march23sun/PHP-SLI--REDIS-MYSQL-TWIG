@@ -15,6 +15,11 @@ $ php composer.phar create-project slim/slim-skeleton [my-app-name]
 ```
 
 
+##TWIG
+```
+$ composer require slim/twig-view
+```
+
 ##Apache 
 
 Add htaccess file  -> Projectfolder/.htaccess:
