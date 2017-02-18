@@ -10,8 +10,9 @@ download Composer https://getcomposer.org/download/ and install
 ```
 php -r "readfile('https://getcomposer.org/installer');" | php 
 ```
+```
 php composer.phar create-project slim/slim-skeleton [my-app-name]
-
+```
 
 
 ##Apache 
