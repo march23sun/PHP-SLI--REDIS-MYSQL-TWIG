@@ -31,7 +31,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
 ```
 
-#MySql Schema
+##MySql Schema
 
 ```
 CREATE TABLE `member` (
