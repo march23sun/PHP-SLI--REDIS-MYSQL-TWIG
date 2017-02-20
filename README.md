@@ -31,7 +31,15 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
 ```
 
+#MySql Schema
 
+```
+CREATE TABLE `member` (
+  `idmember` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idmember`)
+) 
+```
 ## Redis
 
 Download and start Redis Server : https://github.com/dmajkic/redis/downloads
