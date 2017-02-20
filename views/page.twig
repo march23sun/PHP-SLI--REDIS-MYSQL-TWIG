@@ -1,0 +1,9 @@
+{% block content %}
+<h1>{{ ID}}</h1>
+    <h2>Json:    {{ DATA|json_encode() }}</h2>
+    {% for item in DATA.dataArray %}
+      {{ item }}<br>
+    {% endfor %}
+<br>
+    {{ DATA.msg  }}
+{% endblock %}
