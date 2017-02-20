@@ -1,6 +1,7 @@
 # PHP-SLIM-REDIS-MYSQL-TWIG
 Restful API example
 
+
 ##Start 
 
 download Composer https://getcomposer.org/download/ and install
@@ -45,3 +46,40 @@ config php.ini add line -> extension=php_redis.dll
 config php.ini add line -> extension=php_openssl.dll
 ```
 Restart Apache Server 
+
+## DEMO API
+Check Redis Server connection / disconnect (ping)
+```
+/CHECK
+```
+[mySQL]Query Mysql table data
+```
+/DB
+```
+[redis]sets the value at the specified key
+```
+/SET/{KEY}/{VALUE}
+```
+[redis]Gets the value of a key 
+```
+/GET/{KEY}
+```
+[redis]List all key in redis 
+```
+/KEYS
+```
+[redis]List all key and value  (json formatter)
+```
+/ALL
+```
+Restful API Render TO TWIG files
+```
+/PAGE/{ID}
+```
+exchange Mysql / Redis example 
+```
+/GETUSER/{ID}
+```
+
+
+
